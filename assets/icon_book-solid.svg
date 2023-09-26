@@ -1,0 +1,11 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="teenyicons:book-solid" clip-path="url(#clip0_18_2)">
+<path id="Vector" d="M5.6 0C5.10493 0 4.63014 0.196666 4.28007 0.546734C3.93 0.896802 3.73334 1.3716 3.73334 1.86667V50.4C3.73334 50.8951 3.93 51.3699 4.28007 51.7199C4.63014 52.07 5.10493 52.2667 5.6 52.2667H11.2V0H5.6Z" fill="black"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M14.9333 56H18.6667V52.2667H42.9333C45.4087 52.2667 47.7826 51.2833 49.533 49.533C51.2833 47.7827 52.2666 45.4087 52.2666 42.9333V9.33333C52.2666 6.85798 51.2833 4.48401 49.533 2.73367C47.7826 0.98333 45.4087 0 42.9333 0L14.9333 0V56ZM41.0666 18.6667H26.1333V14.9333H41.0666V18.6667Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_18_2">
+<rect width="56" height="56" fill="white"/>
+</clipPath>
+</defs>
+</svg>
