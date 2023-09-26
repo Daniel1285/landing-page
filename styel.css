@@ -6,14 +6,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+section{
+    margin-top: 10%;
+}
+
 
 .main-section{
-    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("assets/b8.jpg");
+    margin-top: 0%;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.80)), url("assets/b8.jpg");
     min-height: 70vh;
     background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 100px 0px 300px rgb(0, 0, 0);;
-    border-radius: 10px;
+    background-size:cover;
+    box-shadow: 100px 0px 300px rgb(0, 0, 0);
 }
 
 .main-container{
@@ -113,12 +117,96 @@ nav ul li .active{
     transition: 0.5s ease;
 }
 
+
+
+/*############################ ABOUT SECTION #################################### */
+
+.about-section{
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+    display:flex;
+}
+.item{
+    width: 60%;
+    flex-grow: 1;
+}
+.items{
+    width: 40%;
+}
+
+.items .img-me{
+    height: 500px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 68px;
+}
+
+.about-container{
+    width: auto;
+}
+
+.about-container h1{
+    margin: 0 5%;
+    font-size: 48px;
+    color:#000;
+    line-height: 1.5;
+}
+
+.about-container p{
+    margin: 1% 5%;
+    width: auto;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.social{
+    width: auto;
+    display: flex;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5% 5%;
+}
+.icons{
+    display: flex;
+    width: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.text{
+    margin: 1.5% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text h5{
+    width: auto;
+    color: black;
+    font-family: Montagu Slab;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
 /*############################ SUMMARY SECTION #################################### */
 .summary-section{
-    background-image:  linear-gradient(rgba(232, 222, 222, 0.6),rgba(139, 137, 137, 0.6)),url('assets/books2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: auto;
     justify-content: space-around;
 }
 .summary-section h1{
@@ -146,7 +234,7 @@ nav ul li .active{
     overflow: hidden;
     border-radius: 10px;
     width: calc(25% - 50px); /* 20% to fit 5 cards in a row with spacing */
-    margin: 10px;
+    margin: 1.5% 1%;
 }
 
 
@@ -155,47 +243,52 @@ nav ul li .active{
     transition: 0.5s ease;
 }
 
-/*############################ ABOUT SECTION #################################### */
-
-.about-section{
-    margin-top: 50px;
-    height: 500px;
-}
-.about-container{
-    width: 800px;
-    height: auto;
-    border-radius: 5px;
-    background-color: #949292;
-    color: white;
-    text-align: center;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    margin: 10px;
-    padding: 10px;
-    transition: 0.5s ease;
-    margin-left: calc(50% - 400px);
-}
-
-.about-container h1{
-    text-align: center;
-    font-size: 48px;
-    color: white;
-    line-height: 1.5;
-}
 
 /*############################ CONTACT SECTION #################################### */
+.contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 
+.contact-section i{
+    display: flex;
+    line-height: 3;
+    margin-left: 50%;
+}
 
+.contact-section p{
+    text-align: center;
+    line-height: 3;
+}
 
+.maps iframe{
+    border-radius: 5px;
 
+}
 
-
+.contact-container{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
 
 
 
 
 /*############################ END CONTACT SECTION #################################### */
-
+.x{
+    height: 100px;
+}
 
 
 
