@@ -13,7 +13,7 @@ section{
 
 .main-section{
     margin: 0% 0%;
-    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url("assets/b8.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.80)), url("assets/images/b8.jpg");
     min-height: 85vh;
     background-repeat: no-repeat;
     background-size:cover;
@@ -53,7 +53,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     list-style: none;
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 nav ul li a{
     color: #FFF;
@@ -99,28 +99,13 @@ nav ul li .active{
     text-transform: uppercase;
     text-decoration: none;
     background-color: #565555;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .article .btn:hover{
-    background-color:#4399fa;
+    color: #000;
+    background-color:#a0a0a0;
     transition: 0.5s ease;
 }
-
-.social h2{
-    margin-top: 30px;
-    color: white;
-}
-.social a{
-    color: white;
-    padding: 0px 8px;
-    line-height: 2;
-}
-.social a:hover{
-    color: #eb7620;
-    transition: 0.5s ease;
-}
-
-
 
 /*############################ ABOUT SECTION #################################### */
 
@@ -141,7 +126,7 @@ nav ul li .active{
 .items .img-me{
     height: 400px;
     width: 300px;
-    margin-top: 35%;
+    margin-top: 30%;
     margin-left: 50%;
     border-radius: 30px;
     box-shadow: 20px 30px 70px rgb(0, 0, 0);
@@ -167,7 +152,7 @@ nav ul li .active{
 }
 
 .social{
-    margin-top: 10%;
+    margin-top: 5%;
     width: auto;
     display: flex;
     color: #000;
@@ -178,21 +163,22 @@ nav ul li .active{
 .icons{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 30px;
 }
 .icons :hover{
-    transition: 1s ease;
+    box-shadow: 1px 1px 15px rgb(78, 76, 77);
+    border-radius: 15px;
 }
+
 
 .text{
     display: flex;
     flex-direction: column; 
     align-items: flex-start;
-    gap: 50px;
+    gap: 42px;
 }
 .text h5{
-    margin: 4% 5%;
+    margin: 4% 7%;
     width: 250px;
     color: black;
     font-family: Montagu Slab;
@@ -218,7 +204,6 @@ nav ul li .active{
     font-size: 58px;
     font-weight: 400;
 }
-
 .summary-section img{
     width: 38px;
     height: 38px;
@@ -244,57 +229,58 @@ nav ul li .active{
     width: calc(25% - 50px); /* 20% to fit 5 cards in a row with spacing */
     margin: 1.5% 1%;
 }
-
-
 .pdf-card:hover{
     box-shadow: 10px 10px 30px rgb(0, 0, 0);
     transition: 0.5s ease;
 }
 
-
 /*############################ CONTACT SECTION #################################### */
 .contact-section{
-    display: flex;
-    justify-content: space-evenly;
-    width: 45%;
-    min-height: 30vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+    background-color: #a38484;
+    height: auto;
+}
+.contact-section img{
+    width: 58px;
+    height: 58px;
+}
+.row{
+    height: auto;
+}
+.column{
+    float: left;
+    width: 33.33%;
 }
 
-.contact-section i{
-    display: flex;
-    line-height: 3;
-    margin-left: 50%;
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.contact-section p{
-    text-align: center;
-    line-height: 3;
+.icon-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.icon-contact img{
+    width: 42px;
+    height: 42px;
 }
 
 .maps iframe{
     border-radius: 5px;
-
+    width: 100%;
+    height: 100%;
 }
 
-.contact-container{
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-    width: 30%;
-    height: 20%;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-}
+
 
 
 
 
 /*############################ END CONTACT SECTION #################################### */
 .x{
+    margin: 0% 0%;
     height: 100px;
 }
 
@@ -311,3 +297,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
