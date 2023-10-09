@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Shalom Cohen">
     <title>Daniel's summary</title>
     <link rel="stylesheet" href="styel.css">
     <script src="main.js"></script>
@@ -18,10 +19,10 @@
             <nav>
                 <h1>D.S.C</h1>
                 <ul>
-                    <li><a href="#home" onclick="home_open()" class="active">Home</a></li>
-                    <li><a href="#summary" onclick="summary_open()">Summary</a></li>
-                    <li><a href="#contact" onclick="contact_open()">Contact</a></li>
-                    <li><a href="#about" onclick="about_open()">About</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="article">
@@ -46,12 +47,12 @@
 
             <div class="social">
                 <div class="icons">
-                    <a href="https://www.instagram.com/daniel_cohen_128/"> <img src="assets/images/icons_instagram.svg"
-                            alt="icon_instagram"></a>
-                    <a href="https://www.linkedin.com/in/daniel-cohen-67466a240/"> <img
-                            src="assets/images/icons_linkedin.svg" alt="icon_Linkedin"></a>
-                    <a href="https://github.com/Daniel1285"> <img src="assets/images/icon_github.svg"
-                            alt="icon_Github"></a>
+                    <a href="https://www.instagram.com/daniel_cohen_128/" target="_blank"> 
+                        <img src="assets/images/icons_instagram.svg" alt="icon_instagram"></a>
+                    <a href="https://www.linkedin.com/in/daniel-cohen-67466a240/" target="_blank"> 
+                        <img src="assets/images/icons_linkedin.svg" alt="icon_Linkedin"></a>
+                    <a href="https://github.com/Daniel1285" target="_blank"> 
+                        <img src="assets/images/icon_github.svg" alt="icon_Github"></a>
                 </div>
                 <div class="text">
                     <h5>My regular life.</h5>
@@ -70,7 +71,7 @@
 
     <!-- Summaries -->
     <section id="summary" class="summary-section">
-        <h1>Summaries <img src="assets/images/icon_book-solid.svg" alt=""></h1>
+        <h1>Summaries <img src="assets/images/icon_book-solid.svg" alt="icon_book-solid"></h1>
         <div class="summary-container">
             <div class="pdf-card">
                 <h3> אינפי א</h3>
@@ -90,7 +91,7 @@
             </div>
             <div class="pdf-card">
                 <h3>משוואות דיפרנציאליות</h3>
-                <embed src="" width="100%" height="100%">
+                <embed src=""  width="100%" height="100%">
             </div>
             <div class="pdf-card">
                 <h3>מתמתיקה בדידה</h3>
@@ -113,17 +114,22 @@
             <div class="column">
                 <img src="assets/images/icon_key.png" alt="icon_key">
             </div>
+
             <div class="column">
                 <div class="icon-contact">
-                    <img src="assets/images/icon_user.svg" alt="icon_user">
-                    <img src="assets/images/icon_phone.svg" alt="icon_phone">
-                    <img src="assets/images/icon_location.svg" alt="icon_location">
+                    <img src="assets/images/icon_user.svg" alt="icon_user"
+                    style="width: 2.5vw; height: 2.5vw;"> 
+                    <h3>Daniel Shalom Cohen </h3>
                 </div>
-                <div class="text">
-                    <p>Daniel Shalom Cohen</p>
-                    <p>+972504015421</p>
-                    <p>Beer-Sheva</p>
+                <div class="icon-contact">
+                    <img src="assets/images/icon_phone.svg" alt="icon_phone"> 
+                    <h3>+972504015421</h3>
                 </div>
+                <div class="icon-contact">
+                    <img src="assets/images/icon_location.svg" alt="icon_location"> 
+                    <h3>Beer Sheva</h3>
+                </div>
+
             </div>
             <div class="column">
                 <div class="maps">
