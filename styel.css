@@ -10,6 +10,18 @@ section{
     margin: 10% 5%;
 }
 
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: 0.5 ease;
+}
 
 .main-section{
     margin: 0% 0%;
@@ -17,7 +29,7 @@ section{
     min-height: 35vw;
     background-repeat: no-repeat;
     background-size:cover;
-    border-radius: 0% 0% 0% 30% / 70%;
+    border-radius: 0% 0% 0% 20% / 60%;
 }
 
 .main-container{
@@ -114,11 +126,11 @@ nav ul li .active{
 
 .about-section{
     width: auto;
-    height: auto;
-    margin-top: 10%;
+    min-height: auto;
     display:flex;
 }
 .item{
+    margin-top: 10%;
     width: 60%;
     flex-grow: 1;
 }
@@ -130,7 +142,7 @@ nav ul li .active{
     max-height: auto;
     resize: horizontal;
     max-width: 60%;
-    margin-top: 30%;
+    margin-top: 45%;
     margin-left: 50%;
     border-radius: 30px;
     box-shadow: 20px 30px 70px rgb(0, 0, 0);
@@ -246,6 +258,7 @@ nav ul li .active{
 
 /*############################ CONTACT SECTION #################################### */
 .contact-section{
+    min-height: 35vw;
     height: auto;
 }
 .contact-section img{ /* icon_key*/
@@ -260,6 +273,7 @@ nav ul li .active{
     display:flex;
 }
 .column{
+    margin-top: 10%;
     float: left;
     width: 33.33%;
 }
@@ -294,22 +308,14 @@ nav ul li .active{
 }
 
 
-
-
-
-
 /*############################ FOOTER SECTION #################################### */
 .footer{
     margin: 0% 0%;
     height: 100px;
 }
-
-
-/* Style the footer */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
-

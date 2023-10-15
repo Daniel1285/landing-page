@@ -7,7 +7,7 @@
     <meta name="author" content="Daniel Shalom Cohen">
     <title>Daniel's summary</title>
     <link rel="stylesheet" href="styel.css">
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
     <link rel="website icon" type="jpg" href="assets/images/icon2.jpg">
 </head>
 
@@ -35,7 +35,7 @@
 
     <!-- About -->
     <section id="about" class="about-section">
-        <div class="item">
+        <div class="item hidden">
             <div class="about-container">
                 <h1> Who am i ? </h1>
                 <p>Hey I'm Daniel Cohen, a third-year student studying Software Engineering <br> at Jerusalem College of
@@ -70,8 +70,8 @@
     </section>
 
     <!-- Summaries -->
-    <section id="summary" class="summary-section">
-        <h1>Summaries <img src="assets/images/icon_book-solid.svg" alt="icon_book-solid"></h1>
+    <section id="summary" class="summary-section hidden" >
+        <h1 class="hidden">Summaries <img src="assets/images/icon_book-solid.svg" alt="icon_book-solid"></h1>
         <div class="summary-container">
             <div class="pdf-card">
                 <h3> אינפי א</h3>
@@ -109,7 +109,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section hidden">
         <div class="row">
             <div class="column">
                 <img src="assets/images/icon_key.png" alt="icon_key">

@@ -1,19 +1,13 @@
-function home_open(){
-    console.log('home clicked !')
-}
-function summary_open(){
-    console.log('summary clicked !')
-    const summarySection = document.getElementById("summary");
-    summarySection.scrollIntoView({ behavior: "smooth" });
-}
-function about_open(){
-    console.log('about clicked !')
-    const aboutSection = document.getElementById("about");
-    aboutSection.scrollIntoView({ behavior: "smooth" });
-}
-function contact_open(){
-    console.log('contact clicked !')
-    const contactSection = document.getElementById("contact");
-    contactSection.scrollIntoView({ behavior: "smooth" });
-    
-}
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting){
+            entry.target.classList.add('show');
+        } else{
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElement = document.querySelectorAll('.hidden');
+hiddenElement.forEach((el)=> observer.observe(el));
