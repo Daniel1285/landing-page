@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 section{
     margin: 10% 5%;
 }
@@ -297,8 +298,8 @@ nav ul li .active{
 
 
 
-/*############################ END CONTACT SECTION #################################### */
-.x{
+/*############################ FOOTER SECTION #################################### */
+.footer{
     margin: 0% 0%;
     height: 100px;
 }
