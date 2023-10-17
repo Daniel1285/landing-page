@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <!-- Home -->
     <section class="main-section">
         <div class="main-container">
@@ -28,10 +27,37 @@
             <div class="article">
                 <h1> <b>Summaries of Daniel</b></h1>
                 <p><em>Summaries in the courses in which I concluded in software engineering</em></p>
-                <a href="#" class="btn" id="login">Register now</a>
+                <button class="btn" id="show-login">Register now</button>
+                
+            </div>
+            <div class="popup">
+                <div class="close-btn">&times;</div>
+                <div class="form">
+                    <h2>Log in</h2>
+                    <div class="form-element">
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-element">
+                        <label for="password">Password: </label>
+                        <input type="password" id="password" placeholder="Enter password">
+                    </div>
+                    <div class="form-element">
+                        <input type="checkbox" id="remember-me">
+                        <label for="checkbox">Remember me </label>
+                    </div>
+                    <div class="form-element">
+                        <button>Sign in</button>
+                    </div>
+                    <div class="form-element">
+                        <a href="#">Forget password?</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <img id="decoration" src="assets/images/decoration.jpg" alt="sos">
 
     <!-- About -->
     <section id="about" class="about-section">
