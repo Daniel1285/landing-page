@@ -67,7 +67,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     list-style: none;
-    padding: 0px 15px;
+    padding: 0 1.2vw;
 }
 nav ul li a{
     color: #FFF;
@@ -96,13 +96,13 @@ nav ul li .active{
     font-style: normal;
     text-transform: uppercase;
     font-family: Montserrat;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 .article p{
     text-align: center;
     color: #7e7e7e;
     font-size: 1vw;
-    line-height: 2;
+    line-height: 3;
     margin-bottom: 30px;
 }
 .article a{
@@ -114,6 +114,7 @@ nav ul li .active{
     text-decoration: none;
     background-color: #565555;
     cursor: pointer;
+    font-size: 0.8vw;
     padding: 1vw 2vw;
     letter-spacing: 0.1vw ;
     border-radius: 2vw;
@@ -182,6 +183,7 @@ nav ul li .active{
 .social{
     width: auto;
     display: flex;
+    align-items: center;
     color: #000;
     font-style: normal;
     line-height: normal;
@@ -342,8 +344,7 @@ footer {
     transition: top 0ms ease-in-out 200ms,
                 opacity 200ms ease-in-out 0ms,
                 transform 20ms ease-in-out 0ms;
-    top: -150%;
-    left: 50%;
+    left: -150%;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.8) ;
     width: 30vw;
@@ -352,7 +353,7 @@ footer {
     border-radius: 1.5vw;
 }
 .popup.active{
-    top: 35%;
+    left: 50%;
     opacity: 1;
     transform: translate(-50%, -50%) scale(0.8);
     transition: top 0ms ease-in-out 20ms,
