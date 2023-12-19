@@ -34,6 +34,7 @@ document.getElementById("sign").addEventListener("click", function(){
         document.getElementById("email").value= "";
         document.getElementById("password").value= "";
         document.getElementById("show-login").style.opacity = "0";
+        document.getElementById("main").style.minHeight = "24vw";
         closePopup();
     } else{
         console.log("fields are empty!");
